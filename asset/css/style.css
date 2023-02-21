@@ -1,66 +1,7 @@
 
-/* Utility */
-
-
-
-
-
-
-
-
-
-
-body{
-    font-family: 'gg Sans', sans-serif;
-}
-
-/* nav bar */
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #3160e1;
-    padding: 6px;
-    color: white;
-}
-
-.header-section {
-    background-color: #3160e1;
-    min-height: 400px;
-    display: flex;
-}
-
-#flex-header {
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
-    min-height: 250px;
-}
-
-
-button{
-    margin: 0px 10px 0px 10px ;
-}
-
-ul li{
-	list-style-type: none;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-ul{
-    display: flex;
-    justify-content:space-between;
-}
 
 /* -------------------------------------------- */
 /* section 1 */
-
 #sec-1{
     display: flex;
     flex-direction: column-reverse;
@@ -103,7 +44,6 @@ ul{
 }
 
 /* section 2 */
-
 #sec-2{
     display: flex;
     min-height: 400px;
@@ -144,7 +84,6 @@ ul{
 }
 
 /* section 3 */
-
 #sec-3{
     display: flex;
     flex-direction: column-reverse;
@@ -189,7 +128,6 @@ ul{
 
 
 /* section 4 */
-
 #sec-4{
     background-color: #f7f6f7;
     display: flex;
@@ -246,48 +184,121 @@ footer{
 
 
 
+/* ------------------------------------------------------------------ */
+/* 21 - 02 - 2023 - Airoldi Federico */
 
+/* Utility */
 
-
-/* --- */
-
-/* section {
-    position: relative;
+.flex{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 400px;
-    padding-top: 100px;
-    background: #3c31dd;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.reflink-style1{
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+/* .reflink-style2{
+    padding: 12px 24px;
+    border-radius: 40px;
 } */
 
-.curve {
-    position: absolute;
-    height: 250px;
-    width: 100%;
-    bottom: 0;
+
+
+/* HEADER */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+/* HEADER *//* NAV */
+nav{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+    align-items: center;
+}
+
+/* HEADER *//* NAV *//* Link Page */
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+
+ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul{
+    justify-content:space-between;
+}
+
+/* HEADER *//* NAV *//* Login */
+.login{
+    background-color: white;
+    color: rgb(23, 23, 23);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* HEADER *//* Section */
+.header-section {
+    min-height: 400px;
+}
+
+/* HEADER *//* Section *//*Main Title*/
+h1{
+    font-size: 40px;
+}
+
+/* HEADER *//* Section *//*Sentence*/
+h1 + p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size: 18px;
 }
 
-.curve::before {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 50%;
-    transform: translate(85%, 60%);
-    background-color: #f7f6f7;
+/* HEADER *//* Section *//*linkref1*/
+#linkref1 {
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(23, 23, 23) ;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 0 15px;
 }
 
-.curve::after {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 50%;
-    background-color: #ffffff;
-    transform: translate(-4%, 40%);
-    z-index: 1;
+/* HEADER *//* Section *//*linkref2*/
+#linkref2 {
+    background-color: rgb(37, 37, 37);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white ;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 0 15px;
 }
+
+#flex-header {
+    margin: auto;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    min-height: 250px;
+}
+
+
+
+
+
