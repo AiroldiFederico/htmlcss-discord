@@ -253,6 +253,7 @@ div > p {
 
 /* section 4 */
 #sec-4{
+    /* background-image: url(../img/wave.svg); */
     background-color: #f7f6f7;
     justify-content: center;
     align-items: center;
@@ -279,6 +280,13 @@ div > p {
     border-radius: 20px;
     font-size: 18px;
     margin-top: 30px;
+}
+
+#stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px 25px;
 }
 /* ----------------------------------------------------- */
 /* ------------------------------------- */
