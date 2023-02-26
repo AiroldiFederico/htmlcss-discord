@@ -174,10 +174,9 @@ h1 + p{
 #sec-2{
     flex-direction: column-reverse;
     min-height: 400px;
-    background-color: #f7f6f7;
+    background-color: lightgray;
     justify-content: normal;
     align-items: normal;
-    margin-top: 50px;
 
 }
 
@@ -187,6 +186,7 @@ h1 + p{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    background-color: lightgray;
 }
 
 #div1-sec2{
@@ -254,7 +254,7 @@ div > p {
 /* section 4 */
 #sec-4{
     /* background-image: url(../img/wave.svg); */
-    background-color: #f7f6f7;
+    background-color: lightgray;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -267,7 +267,7 @@ div > p {
     justify-content: space-between;
     margin: auto;
     width: 60%;
-    background-color: #f7f6f7;
+    background-color: lightgray;
     min-height: 780px;
 }
 
@@ -288,6 +288,23 @@ div > p {
     background-position: center;
     padding: 25px 25px;
 }
+
+#wave1 {
+    /* background-color: rgb(255, 255, 255); */
+    filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
+    display: block;
+    width: 100vw;
+    
+}
+
+#wave2 {
+    /* background-color: rgb(255, 255, 255); */
+    filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
+    display: block;
+    rotate: 180deg;
+    width: 100vw;
+}
+
 /* ----------------------------------------------------- */
 /* ------------------------------------- */
 /* footer */
