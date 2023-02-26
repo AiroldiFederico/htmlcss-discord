@@ -303,7 +303,7 @@ footer{
 #foot-div{
     margin: auto;
     width: 60%;
-    min-height: 400px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -331,4 +331,24 @@ footer{
 
 #footer-title {
     font-size: 25px;
+}
+
+#ita-flag {
+    /* width: 30px; */
+    height: 15px;
+    margin-right: 5px;
+}
+
+#select-lenguage {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#select-lenguage i{
+    margin-left: 5px;
+}
+
+#footersec1 > * {
+    margin-bottom: 20px;
+    width: 220px;
 }
